@@ -1,0 +1,115 @@
+.type-4 {
+  background-color: #fafafa;
+}
+.type-4 .container .welcome-out {
+  text-align: center;
+  padding: 80px 0 !important;
+}
+.type-4 .container .welcome-out >p {
+  margin: 22px 0 !important;
+  color: #858585;
+  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.type-4 .container .welcome-out h1 {
+  padding-top: 50px !important;
+  padding: 30%;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.type-4 .container .welcome-out .email-subscribe {
+  padding-top: 30px !important;
+  padding-bottom: 70px !important;
+}
+.type-4 .container .welcome-out .email-subscribe form .input-from {
+  position: relative;
+}
+.type-4 .container .welcome-out .email-subscribe form .input-from .fa-envelope {
+  position: absolute;
+  left: 21%;
+  bottom: 6px;
+  font-size: 18px;
+}
+.type-4 .container .welcome-out .email-subscribe form .input-from input {
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  background-color: transparent;
+  padding: 0px 50px 0px 40px !important;
+  width: 59%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #302e2e;
+}
+.type-4 .container .welcome-out .email-subscribe form .input-from button {
+  border: none;
+}
+.type-4 .container .welcome-out .email-subscribe form .input-from button .fa-location-arrow {
+  position: absolute;
+  font-size: 15px;
+  right: 21%;
+  top: 4px;
+  background-color: transparent;
+}
+.type-4 .container .background-shop {
+  background: url('../images/h2-img-1.jpg') no-repeat top center/cover;
+  background-attachment: fixed;
+  width: 100%;
+  background-position: 50% 1px;
+  color: #fafafa;
+  padding: 80px 0 !important;
+  left: 21%;
+  bottom: 6px;
+  font-size: 18px;
+}
+.type-4 .container .background-shop .backgroud-shop1 {
+  margin-left: 120px !important;
+}
+.type-4 .container .background-shop button {
+  border: none;
+  background: no-repeat;
+  outline: none;
+  letter-spacing: 2px;
+}
+.type-4 .container .background-shop button .fa-caret-right {
+  background-color: #11dbd2;
+  font-size: 40px;
+  color: #fafafa;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.type-4 .container .background-shop button span {
+  color: #fafafa;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 12;
+}
+.type-4 .container .background-shop h2 {
+  font-family: 'Mr Dafoe', cursive !important;
+  font-size: 230px;
+  color: #fafafa;
+  letter-spacing: 20px;
+  padding: 20px;
+  line-height: 1;
+}
+.type-4 .container .background-shop h1 {
+  color: #fafafa;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+}
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+@media (min-width: 120px) {
+  .container {
+    max-width: 100%;
+  }
+}

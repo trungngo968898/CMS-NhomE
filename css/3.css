@@ -1,0 +1,82 @@
+.type-3 {
+  background: url('../images/h3-background-1.png') no-repeat top center/cover;
+  width: 100%;
+  height: auto;
+}
+.type-3 .container {
+  padding: 50px 0 150px;
+}
+.type-3 .container .welcome-content {
+  margin: 6em 0 4em;
+  text-align: center;
+  position: relative;
+}
+.type-3 .container .welcome-content span {
+  font-family: 'Mr Dafoe', cursive;
+  position: absolute;
+  font-size: 250px;
+  color: #fafafa;
+  z-index: -1;
+  top: -0.6em;
+  left: -10%;
+  width: calc(115%);
+}
+.type-3 .container .welcome-content h1 {
+  color: #222;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.type-3 .container .welcome-content p {
+  color: #858585;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.type-3 .container .row .col-md-4 {
+  text-align: center;
+}
+.type-3 .container .row .col-md-4 .img-banner .product-item {
+  background: #fafafa;
+  position: relative;
+}
+.type-3 .container .row .col-md-4 .img-banner .product-item img {
+  width: 100%;
+}
+.type-3 .container .row .col-md-4 .img-banner .product-item .add-to-card {
+  position: absolute;
+  background: #11dbd2;
+  padding: 17px 0;
+  width: 100%;
+  bottom: 0;
+}
+.type-3 .container .row .col-md-4 .img-banner .product-item .add-to-card a {
+  color: #fff;
+}
+.type-3 .container .row .col-md-4 a {
+  text-decoration: none;
+}
+.type-3 .container .row .col-md-4 a:hover {
+  text-decoration: none;
+}
+.type-3 .container .row .text-product {
+  padding-bottom: 10px;
+}
+.type-3 .container .row .text-product a {
+  color: #11dbd2;
+}
+.type-3 .container .row .title-product {
+  margin: 10px 0px;
+}
+.type-3 .container .row .title-product .shop-list {
+  color: #222;
+  font-weight: 700;
+}
+.type-3 .container .row span {
+  padding: 8px 13px;
+  background: #11dbd2;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}

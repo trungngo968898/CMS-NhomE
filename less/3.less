@@ -1,0 +1,102 @@
+@text-color-default: #222;
+@text-color-bluee: #11dbd2;
+@text-color-black:#858585;
+@font-size-default: 17px;
+.type-3{
+    background: url('../images/h3-background-1.png')no-repeat top center/cover;
+    width: 100%;
+    height: auto;
+    .container{
+        padding: 50px 0 150px;
+        .welcome-content{
+            margin: 6em 0 4em;
+            text-align: center;
+            position: relative;
+            span{
+                font-family: 'Mr Dafoe', cursive;
+                position: absolute;
+                font-size: 250px;
+                color: #fafafa;
+                z-index: -1;
+                top: -0.6em;
+                left: -10%;
+                width: calc(115%);
+            }
+            h1{
+                color: @text-color-default;
+                font-size: 38px;
+                font-weight: 500;
+                letter-spacing: 2px;
+                font-family: 'Josefin Sans', sans-serif;
+
+            }
+            p{
+                color: #858585;
+                font-size: @font-size-default;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+        }
+        .row{
+            .col-md-4{
+                text-align: center;
+                .img-banner{
+                   
+                    .product-item{
+                        background: #fafafa;
+                        position: relative;
+                        img{
+                            width: 100%; 
+                            
+                        }
+                        .add-to-card{
+                                position: absolute;
+                                background: @text-color-bluee;
+                                padding: 17px 0;
+                                width: 100%;
+                                bottom: 0;
+                                a{
+                                    color: #fff; 
+                                }
+                            }
+                       
+                    }
+                }
+                a{
+                    
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: none;  
+                    }
+                }
+            }
+            .text-product{
+                padding-bottom: 10px;
+                a{
+                    color: @text-color-bluee;
+                }
+                
+                
+            }
+            .title-product{
+                margin: 10px 0px;
+                .shop-list{
+                    color: @text-color-default;
+                    font-weight: 700;
+                }
+
+            }
+            .Boards{
+
+            }
+            span{
+                padding: 8px 13px;
+                background: @text-color-bluee;
+                color: #fff;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+
+        }
+    }
+}

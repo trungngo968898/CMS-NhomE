@@ -1,0 +1,23 @@
+.type-6 {
+  background: url(../images/6.png) no-repeat top center/cover;
+  width: 100%;
+  height: auto;
+}
+.type-6 .container .visitour-content {
+  text-align: center;
+  position: relative;
+}
+.type-6 .container .visitour-content h1 {
+  margin-top: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.type-6 .row {
+  width: unset !important;
+  padding: 50px;
+}
+.type-6 .row .col-md-6 {
+  background: url(../images/6.2.jpg) no-repeat top center/cover;
+  background-attachment: fixed;
+  height: 300px;
+  color: white;
+}
