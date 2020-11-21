@@ -1,0 +1,164 @@
+.type-15 {
+  position: relative;
+  margin-bottom: 120px;
+  .backgroud-modal-video {
+    margin-top: 30px;
+    background: url("../images/logo.jpg") fixed center center;
+    background-size: cover;
+    padding: 200px 0;
+    .modal-theme {
+      display: flex;
+      justify-content: center;
+      .play-circle-modal {
+        width: 82px;
+        height: 82px;
+        background: #0de9df;
+        position: relative;
+        border-radius: 50%;
+        cursor: pointer;
+        i {
+          font-size: 30px;
+          color: #fff;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+  .img-waves {
+    img {
+      width: 100%;
+    }
+  }
+  .qodef-contact-form-submit {
+    button {
+      margin-top: 35px;
+      background-color: #fff;
+      padding: 14px 51px 11px 51px;
+      overflow: hidden;
+      border: 2px solid #222;
+      transition: color 0.2s ease-in-out 0.2s, background-color 0.2s ease-in-out;
+      .qodef-btn-text {
+        position: relative;
+        z-index: 1;
+        color: #000;
+        transition: color 0.2s ease-in-out 0.2s;
+      }
+      .qodef-btn-wave-holder {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 2200px;
+        height: 126px;
+        background: url("data:image/svg+xml,\a %3Csvg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22 width=%22172px%22 height=%22126px%22 viewBox=%220 0 172 125.7%22 enable-background=%22new 0 0 172 125.7%22 xml:space=%22preserve%22%3E\a %3Cpath fill=%22%23000000%22 d=%22M173,22.7c-33.9,0-44.7-14.1-88.4-14.1c-43.6,0-54.5,14.1-86,14.1V126l174.4-0.3 C173,125.7,173,28.7,173,22.7z%22/%3E\a %3C/svg%3E")
+          repeat-x;
+        transform: translateY(100%);
+        transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+      &:hover .qodef-btn-wave-holder {
+        transform: translateY(35%);
+      }
+      &:hover .qodef-btn-text {
+        color: #fff;
+      }
+    }
+    .qodef-btn {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      margin: 0;
+      font-size: 12px;
+      line-height: 2em;
+      letter-spacing: 0.2em;
+      font-weight: 700;
+      text-transform: uppercase;
+      outline: 0;
+      box-sizing: border-box;
+      transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+      padding: 13px 32px 9px 35px;
+      cursor: pointer;
+    }
+  }
+  .imgtop-waves {
+    position: absolute;
+    top: 25%;
+    z-index: -3;
+    transform: rotate(180deg);
+    left: 0;
+  }
+  .imgbottom-waves {
+    position: absolute;
+    bottom: 0;
+    z-index: -3;
+    right: 0;
+  }
+  .row-information {
+    margin-top: 120px;
+    .color-h3 {
+      color: #858585;
+      font-size: 19px;
+      margin-top: 25px;
+    }
+    .description {
+      color: #858585;
+      font-size: 16px;
+      margin-top: 25px;
+    }
+  }
+
+  .modals {
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgb(16, 17, 22, 0.7);
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+  }
+  .modals.is-open {
+    visibility: visible;
+    opacity: 1;
+  }
+  .modal__inner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: 0.2s ease-in-out;
+  }
+
+  .modal__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #0de9df;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin: -7px -7px 0 0;
+  }
+}
+
+@media screen and(max-width: 991px) {
+  .title1,
+  .title3 {
+    margin-top: 50px;
+  }
+  .img-screenmd {
+    margin-top: 50px;
+  }
+}

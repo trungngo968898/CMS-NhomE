@@ -1,0 +1,164 @@
+.type-16 {
+  margin-top: 50px;
+  position: relative;
+  .img-leftWaveSize {
+    text-align: center;
+    img {
+      width: 85%;
+    }
+  }
+  .imgtop-waves {
+    position: absolute;
+    top: -10%;
+    z-index: -3;
+    transform: rotate(180deg);
+    left: 0;
+  }
+  .superior {
+    letter-spacing: 3px;
+    margin-top: 80px;
+  }
+  .description {
+    font-size: 18px;
+    color: #858585;
+  }
+  .rowContact {
+    margin-top: 150px;
+    padding: 80px 0;
+    background: #fafafa;
+  }
+  .form-filed {
+    ::placeholder {
+      color: #000;
+      font-size: 16px;
+    }
+    .input-icon {
+      i {
+        position: absolute;
+        color: #000;
+      }
+      .icon {
+        padding-top: 14px;
+      }
+
+      input[type="email"] {
+        font-family: FontAwesome;
+        font-size: 25px;
+        vertical-align: middle;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #000;
+        padding-left: 30px;
+        padding-bottom: 3px;
+        box-shadow: none;
+        width: 100%;
+        outline: none;
+        float: left;
+      }
+    }
+  }
+  .form1 {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .form2 {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .form3 {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  .form-filed2 {
+    ::placeholder {
+      color: #858585;
+      font-size: 16px;
+    }
+    input[type="email"],
+    input[type="text"],
+    input[type="text-area"] {
+      font-family: FontAwesome;
+      font-size: 25px;
+      vertical-align: middle;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #000;
+      box-shadow: none;
+      width: 100%;
+      outline: none;
+      float: left;
+    }
+  }
+  .qodef-contact-form-submit {
+    button {
+      margin-top: 35px;
+      background-color: #fff;
+      padding: 14px 51px 11px 51px;
+      overflow: hidden;
+      border: 2px solid #222;
+      transition: color 0.2s ease-in-out 0.2s, background-color 0.2s ease-in-out;
+      .qodef-btn-text {
+        position: relative;
+        z-index: 1;
+        color: #000;
+        transition: color 0.2s ease-in-out 0.2s;
+      }
+      .qodef-btn-wave-holder {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 2200px;
+        height: 126px;
+        background: url("data:image/svg+xml,\a %3Csvg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22 width=%22172px%22 height=%22126px%22 viewBox=%220 0 172 125.7%22 enable-background=%22new 0 0 172 125.7%22 xml:space=%22preserve%22%3E\a %3Cpath fill=%22%23000000%22 d=%22M173,22.7c-33.9,0-44.7-14.1-88.4-14.1c-43.6,0-54.5,14.1-86,14.1V126l174.4-0.3 C173,125.7,173,28.7,173,22.7z%22/%3E\a %3C/svg%3E")
+          repeat-x;
+        transform: translateY(100%);
+        transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+      &:hover .qodef-btn-wave-holder {
+        transform: translateY(35%);
+      }
+      &:hover .qodef-btn-text {
+        color: #fff;
+      }
+    }
+    .qodef-btn {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      margin: 0;
+      font-size: 12px;
+      line-height: 2em;
+      letter-spacing: 0.2em;
+      font-weight: 700;
+      text-transform: uppercase;
+      outline: 0;
+      box-sizing: border-box;
+      transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+      padding: 13px 32px 9px 35px;
+      cursor: pointer;
+    }
+  }
+  .button-qodef2 {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-qodef2 {
+    margin-top: 15px;
+    float: left !important;
+  }
+  .superior {
+    margin-top: 30px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .superior {
+    margin-top: 50px !important;
+  }
+}

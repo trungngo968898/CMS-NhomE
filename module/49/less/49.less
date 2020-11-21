@@ -1,0 +1,136 @@
+.type-49 {
+  margin-top: 120px;
+  position: relative;
+  .svg-banner {
+    position: absolute;
+    z-index: -3;
+    top: -25px;
+    left: -10%;
+    bottom: 0;
+    right: 0;
+    img {
+      width: 100%;
+    }
+  }
+  .content {
+    text-align: center;
+    margin-bottom: 50px;
+    h1 {
+      letter-spacing: 3px;
+    }
+    p {
+      color: #858585;
+      font-weight: bold;
+      padding: 0 20%;
+    }
+  }
+  .sea-travel {
+    text-align: center;
+    p {
+      color: #858585;
+    }
+  }
+  .banner {
+    position: relative;
+    img {
+      position: absolute;
+      z-index: -2;
+      left: -10%;
+      top: -15%;
+      transform: rotate(5deg);
+      opacity: 0.5;
+      width: 90%;
+    }
+    h2 {
+      margin-top: 20px;
+      letter-spacing: 4px;
+    }
+    .title-p {
+      color: #858585;
+      font-weight: bold;
+    }
+    .description-p {
+      color: #858585;
+      margin-bottom: 50px;
+    }
+    .qodef-contact-form-submit {
+      button {
+        margin-top: 35px;
+        background-color: #fff;
+        padding: 14px 51px 11px 51px;
+        overflow: hidden;
+        border: 2px solid #222;
+        transition: color 0.2s ease-in-out 0.2s,
+          background-color 0.2s ease-in-out;
+        .qodef-btn-text {
+          position: relative;
+          z-index: 1;
+          color: #000;
+          transition: color 0.2s ease-in-out 0.2s;
+        }
+        .qodef-btn-wave-holder {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          display: block;
+          width: 2200px;
+          height: 126px;
+          background: url("data:image/svg+xml,\a %3Csvg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 x=%220px%22 y=%220px%22 width=%22172px%22 height=%22126px%22 viewBox=%220 0 172 125.7%22 enable-background=%22new 0 0 172 125.7%22 xml:space=%22preserve%22%3E\a %3Cpath fill=%22%23000000%22 d=%22M173,22.7c-33.9,0-44.7-14.1-88.4-14.1c-43.6,0-54.5,14.1-86,14.1V126l174.4-0.3 C173,125.7,173,28.7,173,22.7z%22/%3E\a %3C/svg%3E")
+            repeat-x;
+          transform: translateY(100%);
+          transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        &:hover .qodef-btn-wave-holder {
+          transform: translateY(35%);
+        }
+        &:hover .qodef-btn-text {
+          color: #fff;
+        }
+      }
+      .qodef-btn {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+        margin: 0;
+        font-size: 12px;
+        line-height: 2em;
+        letter-spacing: 0.2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        outline: 0;
+        box-sizing: border-box;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        padding: 13px 32px 9px 35px;
+        cursor: pointer;
+      }
+    }
+  }
+  .over-ten {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .img-over {
+      text-align: center;
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .margin-img-over2 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .qodef-contact-form-submit {
+    margin-bottom: 30px;
+  }
+  .content p {
+    padding: 0 5% !important;
+  }
+}
