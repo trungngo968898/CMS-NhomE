@@ -1,0 +1,104 @@
+.type-34 .forecast {
+  font-size: 17px;
+}
+.type-34 .forecast .imgforecast_pod {
+  overflow: hidden;
+}
+.type-34 .forecast .imgforecast_pod img {
+  padding-top: 5px;
+  width: 100%;
+  transition: transform .3s cubic-bezier(.35,.37,.75,.75), -webkit-transform .3s cubic-bezier(.35,.37,.75,.75);
+  will-change: transform;
+  height: auto;
+}
+.type-34 .forecast .imgforecast_pod :hover {
+  transform: scale(1.05);
+}
+.type-34 .forecast .dayofbirthfore {
+  margin: 20px 0 20px 0;
+}
+.type-34 .forecast .dayofbirthfore a {
+  font-size: 15px;
+  font-family: 'roboto';
+  text-decoration: none;
+  color: #16d5cc;
+}
+.type-34 .forecast .dayofbirthfore :hover {
+  color: #16d5cc;
+}
+.type-34 .forecast .podcast h2 {
+  margin: 20px 0 20px 0;
+}
+.type-34 .forecast .podcast h2 a {
+  color: #000;
+  text-decoration: none;
+  font-family: inherit;
+}
+.type-34 .forecast .podcast p {
+  color: #858585;
+}
+.type-34 .forecast .iconShare {
+  overflow: hidden;
+}
+.type-34 .forecast .iconShare .lisxetom {
+  display: flex;
+  justify-content: space-between;
+}
+.type-34 .forecast .iconShare .lisxetom .btnreadmore {
+  display: flex;
+  position: relative;
+  transition: all .3s;
+}
+.type-34 .forecast .iconShare .lisxetom .btnreadmore:hover {
+  margin-left: 22px;
+}
+.type-34 .forecast .iconShare .lisxetom .btnreadmore .iconfonttawesome {
+  margin-right: 15px;
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  color: #16d5cc;
+}
+.type-34 .forecast .iconShare .lisxetom .btnreadmore .readmorepod a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+.type-34 .forecast .iconShare .lisxetom .listItem .shareIconFace {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 90px;
+}
+.type-34 .forecast .iconShare .lisxetom .listItem .shareIconFace .fab {
+  margin-left: 5px;
+}
+.type-34 .forecast .learnHouse {
+  margin: 80px 0;
+}
+.type-34 .forecast .learnHouse .boldLearnhouse {
+  display: flex;
+  background-color: #F7F6F6;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.type-34 .forecast .learnHouse .boldLearnhouse .textLearnHouse h2 a {
+  color: #000;
+  letter-spacing: 1px;
+  font-family: inherit;
+  font-size: 35px;
+  margin-left: 70px;
+  text-decoration: none;
+}
+.type-34 .forecast .learnHouse .boldLearnhouse .imageLearn .fas {
+  font-size: 170px;
+  opacity: .1;
+  transform: rotate(90deg);
+}
+.type-34 .forecast .videoViewLean .fluidvids-item {
+  width: 100%;
+  height: 700px;
+}
